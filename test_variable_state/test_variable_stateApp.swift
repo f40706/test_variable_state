@@ -11,7 +11,7 @@ import SwiftUI
 struct test_variable_stateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestUIView	()
         }
     }
 }

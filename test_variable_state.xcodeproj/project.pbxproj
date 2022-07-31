@@ -14,6 +14,7 @@
 		85C80FE028966E02006983E7 /* test_variable_stateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C80FDF28966E02006983E7 /* test_variable_stateTests.swift */; };
 		85C80FEA28966E03006983E7 /* test_variable_stateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C80FE928966E03006983E7 /* test_variable_stateUITests.swift */; };
 		85C80FEC28966E03006983E7 /* test_variable_stateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C80FEB28966E03006983E7 /* test_variable_stateUITestsLaunchTests.swift */; };
+		85C80FF928966E80006983E7 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C80FF828966E7F006983E7 /* TestUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		85C80FE528966E03006983E7 /* test_variable_stateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_variable_stateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C80FE928966E03006983E7 /* test_variable_stateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_variable_stateUITests.swift; sourceTree = "<group>"; };
 		85C80FEB28966E03006983E7 /* test_variable_stateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_variable_stateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85C80FF828966E7F006983E7 /* TestUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				85C80FCE28966DFE006983E7 /* test_variable_stateApp.swift */,
+				85C80FF828966E7F006983E7 /* TestUIView.swift */,
 				85C80FD028966DFE006983E7 /* ContentView.swift */,
 				85C80FD228966E02006983E7 /* Assets.xcassets */,
 				85C80FD428966E02006983E7 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C80FF928966E80006983E7 /* TestUIView.swift in Sources */,
 				85C80FD128966DFE006983E7 /* ContentView.swift in Sources */,
 				85C80FCF28966DFE006983E7 /* test_variable_stateApp.swift in Sources */,
 			);
