@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct test_variable_stateApp: App {
+    @StateObject var applicationViewModel = TestObservable()
     var body: some Scene {
         WindowGroup {
-            TestUIView	()
+            TestUIView()
+                .environmentObject(applicationViewModel)
         }
     }
 }
